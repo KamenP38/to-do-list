@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html { 
+    background: url(https://st.depositphotos.com/1269993/2653/i/950/depositphotos_26535049-stock-photo-beige-paper-texture-light-background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.done{
+    text-decoration: line-through;
+}
+
+.gg{
+    background-color: greenyellow;
+    width:fit-content;
+}
+
+.sad{
+    background-color: red;
+    width: fit-content;
+}
+
+button.gg, button.sad{
+    margin: 5px 5px;
+}
+
+.main > #userinput{
+    width: 50%;
+}
+
+#enter{
+    padding: 10px;
+    margin-left: 10px;
+    
+}
+
+#userinput{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+#points{
+    border: 2px solid black;
+    background-color: white;
+    color: blue;
+    font-size: x-large;
+    font-weight: bold;
+    padding: 20px;
+    margin-right: 15px;
+    border-radius: 7px;
+}
+
+p{
+    font-size: x-large;
+}
+
+p.counter{
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+li{
+    font-weight: bold;
+}
+
+#userinput, li{
+    font-size:x-large;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    letter-spacing: .003em;
+    font-size: 70px;
+    display:block;
+    text-align: center;
+}
+
+.main{
+    display: flex;
+    margin:0;
+}
+
+
+
+/* Button Styles*/
+.btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform .2s ease-in-out; /*animation*/
+  }
+
+button{
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+}
+
+p.note{
+    color: gray;
+}
+
