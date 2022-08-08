@@ -93,7 +93,7 @@ h1{
 
 
 /* Button Styles*/
-/* .btn {
+.btn {
     border: 2px solid black;
     background-color: white;
     color: black;
@@ -102,20 +102,17 @@ h1{
     cursor: pointer;
     border-radius: 8px;
     transition: transform .2s ease-in-out; 
-  } */
+  }
 
 button{
     cursor: pointer;
 }
 
-/* .btn:hover{
+.btn:hover{
     transform: scale(1.1);
-} */
+}
 
 p.note{
     color: gray;
 }
 
-@media only screen and (max-width: 600px){
-    
-}
