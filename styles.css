@@ -35,16 +35,15 @@ button.gg, button.sad{
 }
 
 #enter{
-    padding: 10px;
+    padding: 0px 10px;
     margin-left: 10px;
-    
 }
 
 #userinput{
     border: 2px solid black;
     background-color: white;
     color: black;
-    padding: 5px;
+    /* padding: 5px; */
     border-radius: 7px;
 }
 
@@ -52,7 +51,7 @@ button.gg, button.sad{
     border: 2px solid black;
     background-color: white;
     color: blue;
-    font-size: x-large;
+    font-size: large;
     font-weight: bold;
     padding: 20px;
     margin-right: 15px;
@@ -60,7 +59,7 @@ button.gg, button.sad{
 }
 
 p{
-    font-size: x-large;
+    font-size: large;
 }
 
 p.counter{
@@ -74,14 +73,14 @@ li{
 }
 
 #userinput, li{
-    font-size:x-large;
+    font-size:large;
 }
 
 h1{
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
     letter-spacing: .003em;
-    font-size: 70px;
+    font-size: 4em;
     display:block;
     text-align: center;
 }
@@ -94,7 +93,7 @@ h1{
 
 
 /* Button Styles*/
-.btn {
+/* .btn {
     border: 2px solid black;
     background-color: white;
     color: black;
@@ -102,27 +101,21 @@ h1{
     font-size: 16px;
     cursor: pointer;
     border-radius: 8px;
-    transition: transform .2s ease-in-out; /*animation*/
-  }
+    transition: transform .2s ease-in-out; 
+  } */
 
 button{
     cursor: pointer;
 }
 
-.btn:hover{
+/* .btn:hover{
     transform: scale(1.1);
-}
+} */
 
 p.note{
     color: gray;
 }
 
 @media only screen and (max-width: 600px){
-    body{
-        font-size: medium;
-    }
-
-    h1{
-        font-size: large;
-    }
+    
 }
