@@ -117,3 +117,12 @@ p.note{
     color: gray;
 }
 
+@media only screen and (max-width: 600px){
+    body{
+        font-size: medium;
+    }
+
+    h1{
+        font-size: large;
+    }
+}
